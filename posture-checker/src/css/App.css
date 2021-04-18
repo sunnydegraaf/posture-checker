@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #b7e3e4;
+  color: #f03f35;
+  font-family: "Work Sans", sans-serif;
+}
+
+button {
+  border: none;
+  width: 100%;
+  height: 40px;
+  background-color: #f03f35;
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+  outline: none;
+  transition: ease-in-out 0.2s;
+}
+
+button:hover {
+  background-color: #d12f26;
+  transition: ease-in-out 0.2s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Crimson Text", serif;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.capture {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.result {
+  width: 100%;
+  padding: 10px;
+  transition: ease-in-out 0.2s;
+}
